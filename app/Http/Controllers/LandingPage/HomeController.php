@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\LandingPage;
 
+use Illuminate\Support\Str;
 use App\Http\Controllers\Controller;
 
 class HomeController extends Controller
@@ -10,8 +11,8 @@ class HomeController extends Controller
     {
         return view('pages.home', [
             'page' => 'Beranda',
-            'title' => 'Jasa Travel Terdekat Untuk Hari Ini',
-            'description' => 'Kami menawarkan ' . web()->tagline . ' terbaik dan termurah untuk hari, pesan dengan mudah dan dapatkan diskon s/d 10% ini',
+            'title' => 'Jasa ' . web()->title . ' Jadwal 24 Jam',
+            'description' => 'Rekomendasi ' . Str::lower(web()->tagline) . ' yang akan antar jemput anda dengan cepat, aman, dan nyaman.',
             // 'thumbnail' => [
             //     'url' => asset(web()->defaultLogo),
             //     'width' => 672,

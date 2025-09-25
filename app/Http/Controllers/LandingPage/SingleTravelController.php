@@ -41,8 +41,6 @@ class SingleTravelController extends Controller
             'destinationId'
         ));
 
-        // return $this->productSchema($origin, $destination)['rating'];
-
         return view('pages.travel.single', [
             'page' => $travel,
             'title' => "$travel Murah Untuk Hari Ini",
@@ -56,7 +54,7 @@ class SingleTravelController extends Controller
                 'height' => 900,
                 'alt' => $travel,
             ],
-            'productSchema' => $this->productSchema($origin, $destination, $travel),
+            // 'productSchema' => $this->productSchema($origin, $destination, $travel),
         ]);
     }
 

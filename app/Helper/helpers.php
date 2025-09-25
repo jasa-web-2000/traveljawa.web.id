@@ -8,7 +8,7 @@ use App\Http\Controllers\DistrictController;
 if (! function_exists('mail')) {
     function mail(?string $mail = null, bool $link = false)
     {
-        $resultMail = $mail ?? 'admin@travelterdekat.web.id';
+        $resultMail = $mail ?? 'admin@traveljawa.web.id';
 
         return $resultMail;
     }
@@ -17,7 +17,7 @@ if (! function_exists('mail')) {
 if (! function_exists('phoneNumber')) {
     function phoneNumber(?string $phoneNumber = null, bool $link = false)
     {
-        $resultPhoneNumber = $phoneNumber ?? validationPhoneNumber();
+        $resultPhoneNumber = $phoneNumber ?? '+62 899-0704-308';
 
         return $link ? str_replace(['-', '+', ' '], '', $resultPhoneNumber) : $resultPhoneNumber;
     }
@@ -105,7 +105,7 @@ if (! function_exists('web')) {
     {
         $data = [
             "title" => env('APP_NAME'),
-            "tagline" => "Jasa Travel Terdekat Rute se-Indonesia",
+            "tagline" => "Jasa Travel Jawa Terbaik",
             "transparentLogo" => asset('images/general/TRAVEL-TERDEKAT.gif'),
             "defaultLogo" => asset('images/general/TRAVEL-TERDEKAT.jpg'),
         ];
