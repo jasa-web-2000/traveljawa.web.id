@@ -43,10 +43,10 @@
         </div>
 
         <p class="mt-4 mb-2 line-clamp-2">
-            Pesan {{ $title }} anda sekarang juga bersama kami.
+            Jasa {{ $title }} terdekat dengan biaya murah, via tol dan 24 jam.
         </p>
         <a class="underline opacity-75" href="{{ $url }}" title="{{ $title }}">
-            Baca selengkapnya...
+            Selengkapnya...
         </a>
         <div class="w-full mt-4">
             <a href='{{ whatsapp(null, "Halo admin.\nSaya ingin tanya tentang " . $title . "\n\n" . $url) }}'

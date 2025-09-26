@@ -29,7 +29,8 @@
 }
 
 @theme inline {
-    --color-primary: oklch(54.1% 0.281 293.009);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
 
     --color-background-primary: var(--color-gray-50);
     --color-background-secondary: var(--color-gray-200);
@@ -46,8 +47,8 @@
 }
 
 :root {
-    --primary: oklch(54.1% 0.281 293.009);
-    --secondary: oklch(0.64 0.22 299.42);
+    --primary: var(--color-red-600);
+    --secondary: var(--color-red-100);
 }
 
 @layer base {
@@ -145,7 +146,7 @@
 }
 
 @utility hero-gradient {
-    @apply absolute bg-cover bg-center w-full h-full bg-no-repeat before:absolute before:inset-0 before:content-[''] before:bg-gradient-to-br before:from-primary/35 before:via-primary/95 before:to-primary/65 after:absolute after:inset-0 after:content-[''] after:bg-gradient-to-b after:from-slate-950/50 after:to-slate-950/60;
+    @apply absolute bg-cover bg-center w-full h-full bg-no-repeat before:absolute before:inset-0 before:content-[''] before:bg-gradient-to-br before:from-primary/65 before:via-primary/95 before:to-primary/75 after:absolute after:inset-0 after:content-[''] after:bg-gradient-to-b after:from-slate-950/50 after:to-slate-950/60;
 }
 
 @utility simple-gradient {
