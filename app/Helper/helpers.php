@@ -106,8 +106,8 @@ if (! function_exists('web')) {
         $data = [
             "title" => env('APP_NAME'),
             "tagline" => "Jasa Travel Jawa Terbaik",
-            "transparentLogo" => asset('images/general/TRAVEL-TERDEKAT.gif'),
-            "defaultLogo" => asset('images/general/TRAVEL-TERDEKAT.jpg'),
+            "transparentLogo" => asset('images/general/travel-jawa.gif'),
+            "defaultLogo" => asset('images/general/travel-jawa.jpg'),
         ];
 
         return (object) $data;

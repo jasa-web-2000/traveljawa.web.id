@@ -1,5 +1,5 @@
 <header class="bg-background-primary top-0 sticky z-[99] shadow-lg">
-    <div class="w-full px-5">
+    <div class="w-full px-5 py-1">
         <div class="flex justify-between">
 
             <!-- Logo -->

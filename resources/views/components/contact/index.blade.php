@@ -1,6 +1,5 @@
 <div class="my-container text-center">
-    <x-sub-heading subTitle='Pesan Travel Terdekat Sekarang'
-        description='Anda bisa pesan travel secara online melalui whatsapp.' />
+    <x-sub-heading subTitle='Reservasi Travel Anda Sekarang' description='Reservasi {{ web()->title }} kapan saja dan dari mana saja.' />
 
     <div
         class="!text-left mt-10 content-start grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 sm:gap-x-10 md:gap-y-12 md:gap-x-20 lg:gap-x-28 lg:justify-center md:items-center">

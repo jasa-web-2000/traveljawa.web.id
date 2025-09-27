@@ -26,7 +26,7 @@
     <div class="text-center bg-background-primary px-5 shadow rounded-md">
         <div class="my-space"></div>
         <h2 class="text-base text-text-title-black">
-            Partner Travel Kami
+            Yang Bekerjasama Dengan Kami:
         </h2>
         <ul class="max-w-[360px] sm:max-w-[500px] mx-auto mt-8 grid grid-cols-2 sm:grid-cols-3 [&_*]:border-slate-300">
             @foreach ($partner as $item)

@@ -5,40 +5,40 @@
                 'M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z',
             'subSubTitle' => 'Harga Travel Murah',
             'description' =>
-                'Nikmati layanan travel berkualitas dengan harga terjangkau. Perjalanan aman, nyaman, dan tepat waktu untuk semua tujuan favorit Anda.',
+                'Temukan layanan travel terpercaya dengan harga ramah di kantong. Nikmati perjalanan yang aman, nyaman, dan selalu tepat waktu ke berbagai destinasi favorit Anda!.',
         ],
         [
             'icon' =>
                 'm2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25',
             'subSubTitle' => 'Door to Door',
             'description' =>
-                'Layanan antar jemput langsung dari rumah Anda ke tujuan tanpa repot. Praktis, nyaman, dan tepat waktu setiap hari.',
+                'Nikmati layanan antar jemput door to door langsung dari rumah ke tujuan Anda. Solusi praktis, nyaman, dan selalu tepat waktu setiap hari tanpa ribet!',
         ],
         [
             'icon' => 'M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z',
             'subSubTitle' => 'Jadwal 24 Jam',
             'description' =>
-                'Layanan travel dengan jadwal 24 jam, siap antar kapan saja. Fleksibel, cepat, dan selalu tersedia tanpa batas waktu.',
+                'Travel 24 jam siap antar kapan pun Anda butuh, layanan fleksibel, cepat, dan selalu tersedia tanpa batas waktu. Solusi perjalanan tanpa khawatir waktu!',
         ],
         [
             'icon' =>
                 'M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z',
             'subSubTitle' => 'Mobil ber-AC',
             'description' =>
-                'Semua armada dilengkapi AC dingin untuk kenyamanan maksimal selama perjalanan. Segar, nyaman, dan bebas gerah sepanjang jalan.',
+                'Setiap armada kami dilengkapi AC dingin untuk menjamin kenyamanan maksimal sepanjang perjalanan. Tetap segar, nyaman, dan bebas gerah dari awal hingga sampai tujuan.',
         ],
         [
             'icon' => 'm21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9',
             'subSubTitle' => 'Free Bagasi 15kg',
             'description' =>
-                'Nikmati layanan bagasi gratis hingga 15kg tanpa biaya tambahan. Bawa barang bawaan lebih leluasa dan tetap hemat biaya.',
+                'Dapatkan fasilitas bagasi gratis hingga 15kg tanpa biaya tambahan! Bawa barang bawaan lebih banyak dengan leluasa, tanpa khawatir biaya ekstra.',
         ],
         [
             'icon' =>
                 'M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z',
             'subSubTitle' => 'Pemesanan Bisa Online',
             'description' =>
-                'Pesan travel kini lebih mudah! Hubungi kami lewat WhatsApp untuk booking cepat, tanpa ribet, aman, dan responsif setiap hari.',
+                'Booking travel kini super mudah! Cukup hubungi kami via WhatsApp untuk pemesanan cepat, tanpa ribet. Layanan responsif dan aman tersedia setiap hari.',
         ],
     ];
 
@@ -46,8 +46,8 @@
 <div class="relative">
     <div class="hero-gradient"></div>
     <div class="relative my-container text-center py-20">
-        <x-sub-heading type="light" subTitle='Keunggulan Kami sebagai Penyedia Travel'
-            description='Travel terbaik No. 1 dengan beberapa keunggulan seperti.' />
+        <x-sub-heading type="light" subTitle='Keuntungan Travel Bersama Kami'
+            description='Travel bersama kami dan dapatkan berbagai keuntungan menarik.' />
 
         <div
             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 sm:gap-x-6 lg:gap-x-8 gap-y-7 sm:gap-y-8 lg:gap-y-10">

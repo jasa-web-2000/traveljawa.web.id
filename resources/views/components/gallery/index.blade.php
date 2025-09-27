@@ -1,14 +1,14 @@
 @php
     $galeri = [
         [
-            ['/images/gallery/1.jpg', 'aspect-[10/10]'],
-            ['/images/gallery/2.jpg', 'aspect-[10/13]'],
-            ['/images/gallery/3.jpg', 'aspect-[10/13]'],
-        ],
-        [
             ['/images/gallery/4.jpg', 'aspect-[10/12]'],
             ['/images/gallery/5.jpg', 'aspect-[10/14]'],
             ['/images/gallery/6.jpg', 'aspect-[10/10]'],
+        ],
+        [
+            ['/images/gallery/1.jpg', 'aspect-[10/10]'],
+            ['/images/gallery/3.jpg', 'aspect-[10/13]'],
+            ['/images/gallery/2.jpg', 'aspect-[10/13]'],
         ],
         [
             ['/images/gallery/7.jpg', 'aspect-[10/14]'],
@@ -16,10 +16,10 @@
             ['/images/gallery/9.jpg', 'aspect-[10/11]'],
         ],
         [
-            ['/images/gallery/10.jpg', 'aspect-[10/8.75]'],
             ['/images/gallery/11.jpg', 'aspect-[10/8.75]'],
-            ['/images/gallery/12.jpg', 'aspect-[10/8.75]'],
+            ['/images/gallery/10.jpg', 'aspect-[10/8.75]'],
             ['/images/gallery/13.jpg', 'aspect-[10/8.75]'],
+            ['/images/gallery/12.jpg', 'aspect-[10/8.75]'],
         ],
     ];
 

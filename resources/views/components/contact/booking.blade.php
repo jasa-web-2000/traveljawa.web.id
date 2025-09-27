@@ -1,5 +1,5 @@
 <div class="bg-background-primary rounded-lg shadow-md p-5 border-b-8 border-primary">
-    <h3>Reservasi Tiket</h3>
+    <h3>Form Pemesanan</h3>
     <div class="border-t border-slate-200 h-1 w-full my-3"></div>
     <form method="POST" target="_blank" action="{{ route('contact.form') }}" id="cari-rute"
         class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 [&_label]:after:content-['*'] [&_label]:after:ml-0.5 [&_label]:after:text-danger [&_label]:line-clamp-1 [&_button]:overflow-hidden text-text-description-black ">

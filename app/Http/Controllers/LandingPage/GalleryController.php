@@ -12,7 +12,7 @@ class GalleryController extends Controller
         return view('pages.gallery', [
             'page' => 'Galeri',
             'title' => 'Galeri Mobil Travel',
-            'description' => 'Galeri mobil travel dengan berbagai jenis mobil terbaik dan dilengkap ac',
+            'description' => 'Kumpulan mobil travel terbaik dengan berbagai jenis lengkap dan dilengkapi AC nyaman',
         ]);
     }
 }

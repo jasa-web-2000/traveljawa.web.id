@@ -93,7 +93,7 @@
     <meta name="twitter:image:height" content="{{ $resultThumbnail->height }}">
     <meta name="twitter:image:alt" content="{{ $resultThumbnail->alt }}">
 
-    @if (request()->routeIs('travel.show') && isset($productSchema))
+    {{-- @if (request()->routeIs('travel.show') && isset($productSchema))
         @php
             $product = collect([
                 '@context' => 'https://schema.org/',
@@ -148,7 +148,7 @@
         {!! json_encode($product, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) !!}
 
     </script>
-    @endif
+    @endif --}}
 
 
 

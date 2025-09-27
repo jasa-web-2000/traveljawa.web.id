@@ -11,12 +11,12 @@
     </FilesMatch>
 
     # Redirect dari www ke non-www
-    RewriteCond %{HTTP_HOST} ^www\.travelterdekat\.web\.id [NC]
-    RewriteRule ^(.*)$ https://travelterdekat.web.id/$1 [L,R=301]
+    RewriteCond %{HTTP_HOST} ^www\.traveljawa\.web\.id [NC]
+    RewriteRule ^(.*)$ https://traveljawa.web.id/$1 [L,R=301]
 
     # Redirect dari HTTP ke HTTPS
     RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://travelterdekat.web.id/$1 [L,R=301]
+    RewriteRule ^(.*)$ https://traveljawa.web.id/$1 [L,R=301]
 
 
 

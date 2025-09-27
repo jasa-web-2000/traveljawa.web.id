@@ -12,9 +12,9 @@ class ArchiveTravelController extends Controller
     public function __invoke()
     {
         return view('pages.travel.archive', [
-            'page' => 'Arsip Travel Terdekat',
-            'title' => 'Arsip Travel Terdekat',
-            'description' => 'Tersedia lengkap ' . Str::lower(web()->tagline),
+            'page' => 'Arsip ' . web()->title,
+            'title' => 'Arsip ' . web()->title . ' Terlengkap',
+            'description' => 'Tersedia lengkap ' . Str::lower(web()->tagline) . ' dan Sekitarnya',
         ]);
     }
 }

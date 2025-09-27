@@ -11,8 +11,8 @@ class ContactController extends Controller
     {
         return view('pages.contact', [
             'page' => 'Kontak',
-            'title' => 'Kontak Pemesanan travel',
-            'description' => 'Pesan travel dengan mudah sekarang juga dengan mudah secara online via whatsapp',
+            'title' => 'Kontak Pemesanan Travel',
+            'description' => 'Pesan travel dengan cepat dan mudah secara online melalui WhatsApp sekarang juga',
         ]);
     }
 }

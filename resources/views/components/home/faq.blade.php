@@ -1,42 +1,45 @@
 @php
     $faq = [
         [
-            'question' => 'Apakah <i>"' . web()->title . '"</i> Travel Resmi?',
+            'question' => 'Apakah <i>"' . web()->title . '"</i> Merupakan Jasa Travel Resmi?',
             'answer' =>
-                'Tentu saja, kami adalah travel resmi dan berpengalaman dalam melayani berbagai kebutuhan perjalanan untuk ' .
-                web()->tagline .
-                ' Dengan komitmen tinggi terhadap pelayanan, kami siap memberikan solusi transportasi terbaik untuk Anda.',
-        ],
-        [
-            'question' => 'Berapa Harga Travel?',
-            'answer' =>
-                'Harga travel kami sangat bervariasi tergantung rute perjalanan dan titik antar jemput yang Anda pilih. Semua penyesuaian dilakukan berdasarkan kondisi saat itu. Untuk informasi harga yang lebih lengkap dan detail, silakan menghubungi admin kami yang siap membantu Anda kapan saja.',
-        ],
-        [
-            'question' => 'Tersedia Mobil Travel Apa Saja?',
-            'answer' =>
-                'Kami memiliki banyak mobil untuk layanan travel, semua mobil telah dilengkapi ac. Berikut daftar mobil yang kami miliki: Avanza, Xenia, Calya, Innova, Hiace, Elf Long, Elf Short, Luxio, Gran Max, Pregio, Travello, Mobilio, Ertiga, APV, Fortuner, Pajero Sport, dan masih banyak lagi.',
-        ],
-        [
-            'question' => 'Garasi Travel Ada Di Mana?',
-            'answer' =>
-                'Untuk garasi utama kami ada di ' .
-                address()->streetAddress .
-                '. Namun karena ' .
+                'Ya, <i>"' .
                 web()->title .
-                ' adalah agen travel terpercaya, kami pastinya memiliki partner travel yang tersebar diberbagai daerah.',
+                '"</i> adalah layanan travel resmi dan terpercaya, berpengalaman dalam menangani berbagai kebutuhan perjalanan untuk ' .
+                web()->tagline .
+                '. Dengan pelayanan profesional dan komitmen tinggi, kami hadir sebagai solusi transportasi terbaik untuk Anda.',
         ],
         [
-            'question' => 'Bagaimana Cara Pesan Tiket?',
+            'question' => 'Berapa Biaya Layanan Travel?',
             'answer' =>
-                'Cara pesen tiket sangatlah mudah, bisa pesan kapan saja dan di mana saja. Pastinya anda akan mengisi formulir langsung baik itu offline maupun offline via whatsapp. Isi data sesuai penumpang dan berikan detail lokasi antar jemput.',
+                'Biaya layanan travel kami menyesuaikan dengan rute perjalanan serta lokasi penjemputan dan pengantaran. Harga fleksibel sesuai kondisi terkini. Untuk info harga lengkap, silakan hubungi admin kami yang siap melayani Anda setiap saat.',
         ],
         [
-            'question' => 'Bisa Melakukan & Refund?',
+            'question' => 'Apa Saja Jenis Mobil Travel yang Tersedia?',
             'answer' =>
-                'Untuk reschedule atau perubahan jadwal disarankan dilakukan 1 hari sebelum keberangkatan. Agar kami dapat menyesuaikan jadwal sopir. Sedangakan refund bisa diklaim 100%. Tapi biasanya kami tidak meminta dp ketika pemesanan.',
+                'Kami menyediakan berbagai pilihan armada dengan AC untuk kenyamanan Anda. Armada kami meliputi: Avanza, Xenia, Calya, Innova, Hiace, Elf Long, Elf Short, Luxio, Gran Max, Pregio, Travello, Mobilio, Ertiga, APV, Fortuner, Pajero Sport, dan masih banyak lagi.',
+        ],
+        [
+            'question' => 'Di Mana Lokasi Garasi Travel?',
+            'answer' =>
+                'Garasi utama kami berlokasi di ' .
+                address()->streetAddress .
+                '. Selain itu, karena <i>"' .
+                web()->title .
+                '"</i> adalah agen travel profesional, kami juga bekerja sama dengan mitra travel yang tersebar di berbagai daerah.',
+        ],
+        [
+            'question' => 'Bagaimana Proses Pemesanan Tiket Travel?',
+            'answer' =>
+                'Proses pemesanan sangat mudah dan fleksibel, bisa dilakukan kapan saja dan dari mana saja. Anda cukup mengisi formulir pemesanan, baik secara offline maupun melalui WhatsApp, dengan mencantumkan data penumpang dan detail lokasi penjemputan serta tujuan.',
+        ],
+        [
+            'question' => 'Apakah Bisa Reschedule atau Refund?',
+            'answer' =>
+                'Perubahan jadwal (reschedule) sebaiknya dilakukan minimal 1 hari sebelum keberangkatan agar kami dapat mengatur ulang jadwal armada. Untuk pembatalan (refund), kami memberikan pengembalian dana 100%. Namun, biasanya kami tidak memerlukan DP saat pemesanan.',
         ],
     ];
+
 @endphp
 
 <div class="bg-background-primary">
